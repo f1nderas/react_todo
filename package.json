@@ -1,6 +1,7 @@
 {
   "name": "todos",
   "private": true,
+  "homepage": "https://f1nderas.github.io/react_todo/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
