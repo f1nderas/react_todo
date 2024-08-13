@@ -8,7 +8,7 @@ function App() {
   const [filter, setFilter] = useState<FilterType>(FilterType.ALL);
 
   useEffect(() => {
-    fetch("/todos.json")
+    fetch("/react_todo/todos.json")
       .then((response) => response.json())
       .then((data) => setTodos(data))
       .catch((error) => console.error("Error fetching todos:", error));
