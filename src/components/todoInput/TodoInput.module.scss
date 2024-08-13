@@ -1,0 +1,15 @@
+.form {
+  display: flex;
+  align-items: center;
+}
+.arrow {
+  flex-basis: 2rem;
+}
+
+.input {
+  border: none;
+  font-size: 1.5rem;
+  &:placeholder-shown {
+    opacity: 0.5;
+  }
+}
